@@ -27,7 +27,7 @@ Using Terraform, the entire cloud infrastructure was automatically deployed.
 ```bash
 terraform init
 terraform plan
-terraform apply -auto-approve
+terraform apply --auto-approve
 ```
 
 ![](./img/ip-rds.png)
